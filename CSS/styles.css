@@ -20,6 +20,7 @@ h2 {
     font-family: Ubuntu;
     color: hsl(184, 55%, 29%);
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
@@ -28,11 +29,18 @@ h3 {
     color: hsl(185, 77%, 10%);
 }
 
-hr {
-    border-color: hsl(184, 76%, 21%);
+p {
+    line-height: 2;
 }
 
 
+hr {
+    border: dotted #62acac 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+
+}
 
 .stalking-container {
     z-index: 5;
@@ -45,7 +53,6 @@ hr {
 .top-container {
 
     background-color: hsl(182, 32%, 60%);
-    position: relative;
     padding-top: 100px;
 
 }
@@ -83,7 +90,8 @@ hr {
 
 
 .mid-container {
-    background-color: hsl(183, 40%, 48%)
+    background-color: hsl(183, 40%, 48%);
+    padding: 100px 0;
 }
 
 .profilePic {
@@ -95,6 +103,12 @@ hr {
 
 }
 
+.intro {
+    width: 25%;
+    margin: auto;
+
+}
+
 .bot-container {
     background-color: hsl(182, 32%, 60%)
 }
@@ -103,7 +117,7 @@ hr {
     width: 50%;
     margin: 6.25rem auto 6.25rem auto;
     text-align: left;
-    line-height: 2;
+
 }
 
 .tree {
@@ -138,4 +152,9 @@ hr {
 .foot-container {
     background-color: hsl(183, 40%, 48%);
 
+}
+
+.contact-message {
+    width: 30%;
+    margin: 40px auto;
 }
