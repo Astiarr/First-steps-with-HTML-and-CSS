@@ -42,6 +42,17 @@ hr {
 
 }
 
+a {
+    color: #0d6568;
+    font-family: Montserrat;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+
 .stalking-container {
     z-index: 5;
     height: 6.25rem;
@@ -145,16 +156,48 @@ hr {
 .btn {
 
     line-height: 3rem;
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+}
 
 
+.btn:hover {
+    background: #40b8a2;
+    background-image: -webkit-linear-gradient(top, #40b8a2, #318077);
+    background-image: -moz-linear-gradient(top, #40b8a2, #318077);
+    background-image: -ms-linear-gradient(top, #40b8a2, #318077);
+    background-image: -o-linear-gradient(top, #40b8a2, #318077);
+    background-image: linear-gradient(to bottom, #40b8a2, #318077);
+    text-decoration: none;
 }
 
 .foot-container {
     background-color: hsl(183, 40%, 48%);
+    padding: 50px 0 20px;
 
 }
 
 .contact-message {
     width: 30%;
     margin: 40px auto;
+}
+
+.copyleft {
+    color: hsl(185, 77%, 10%);
+    font-size: 0.75rem;
+    padding: 20px 0;
+
 }
